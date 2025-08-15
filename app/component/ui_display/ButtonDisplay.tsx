@@ -7,12 +7,12 @@ export default function ButtonDisplay() {
 
     return (
         <div className="flex flex-col items-center p-8 max-w-6xl mx-auto">
-            <h1 className="text-3xl font-bold mb-8 text-slate-900">Button</h1>
+            <h1 className="text-3xl font-bold mb-8 text-foreground">Button</h1>
 
             <div >
                 <table >
                     <thead>
-                        <tr >
+                        <tr className="text-foreground" >
                             <th >
                                 Size / Variant
                             </th>
@@ -25,8 +25,8 @@ export default function ButtonDisplay() {
                     </thead>
                     <tbody>
                         {sizes.map((size) => (
-                            <tr key={size} className="hover:bg-slate-25">
-                                <td >
+                            <tr key={size} >
+                                <td className="text-foreground">
                                     {size}
                                 </td>
                                 {variants.map((variant) => (
@@ -43,5 +43,9 @@ export default function ButtonDisplay() {
                         ))}
                     </tbody>
                 </table>
-            </div></div>)
+            </div>
+            
+            <p>Fix the outline variant + the link variant</p>
+            <p>fix  all in dark mode</p>
+            </div>)
 }

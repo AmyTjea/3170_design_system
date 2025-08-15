@@ -11,12 +11,12 @@ export default function AlertDisplay() {
         <>
 
             <div className="flex flex-col items-center p-8 max-w-6xl mx-auto">
-                <h1 className="text-3xl font-bold mb-8 text-slate-900">Button</h1>
+                <h1 className="text-3xl font-bold text-foreground mb-8">Alert</h1>
 
 
                             {variants.map((variant, idx) => (
                                 <div key={idx} className=" px-4 py-6 gap-7 flex flex-row">
-                                    <div >
+                                    <div className='text-foreground'>
                                         {variant}
                                     </div>
                                     <Alert variant={variant}>
@@ -28,7 +28,7 @@ export default function AlertDisplay() {
 
 
                             ))}
-
+<p>change both variants to have coloured backgroundss</p>
 
 <br />
             <AlertDialog>
@@ -49,6 +49,8 @@ export default function AlertDisplay() {
                     </AlertDialogFooter>
                 </AlertDialogContent>
             </AlertDialog>
+
+            <p>alert dialog should let you exit if you click outside of the modal</p>
 </div>
         </>)
 
