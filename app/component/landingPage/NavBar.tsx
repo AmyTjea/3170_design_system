@@ -36,8 +36,8 @@ export const NavBar: React.FC<NavBarProps> = ({ isLoggedIn }) => {
   return (
     <>
     <div
-      className={`z-50 flex items-center justify-between py-2 border-b bg-white  
-        ${isLandingPage ? "sticky top-0 px-4 rounded-md shadow-lg  ml-32 mr-32" : "relative px-4"}
+      className={`z-50 flex items-center justify-between py-2 border-b bg-git-bg-elevated  
+        ${"sticky top-0 px-4 rounded-md shadow-lg  ml-32 mr-32" }
       `}
     >
       <NavigationMenu>
@@ -94,7 +94,7 @@ export const NavBar: React.FC<NavBarProps> = ({ isLoggedIn }) => {
       <div className="flex items-center space-x-4">
         <button
           onClick={handleToggleDarkMode}
-          className="p-2 rounded-full hover:bg-gray-200 transition-colors"
+          className="p-2 rounded-full hover:bg-git-bg-bottom/30 transition-colors"
           aria-label={
             isDarkMode ? "Switch to light mode" : "Switch to dark mode"
           }
