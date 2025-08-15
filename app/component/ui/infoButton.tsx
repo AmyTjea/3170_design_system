@@ -2,12 +2,12 @@
 
 import React from "react"
 import { Info } from "lucide-react"
-import { Button } from "@ui/components/ui/button"
+import { Button } from "../ui/button"
 import {
   Popover,
   PopoverTrigger,
   PopoverContent,
-} from "@ui/components/ui/popover"
+} from "../ui/popover"
 
 interface InfoButtonProps {
   description: string
