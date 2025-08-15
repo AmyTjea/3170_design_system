@@ -201,8 +201,8 @@
 
     /* Git Stroke Colours */
     --git-stroke-primary: rgba(53, 53, 49, 0.5);
-    --git-stroke-secondary: #252522;
-    --git-stroke-tertiary: #21211e;
+    --git-stroke-secondary: #25252273;
+    --git-stroke-tertiary: #21211e63;
 
     /* Git Tabs Colours */
     --git-tabs-hovered: #d0d0b7;
@@ -233,7 +233,7 @@
     --destructive:var(--git-int-destructive) ; /*0 100% 50%;*/
     --destructive-foreground:var(--git-int-text) ; /*210 40% 98%;*/
 
-    --border:var(--git-bg-elevated) ; /*214.3 31.8% 91.4%;*/
+    --border:var(--git-stroke-secondary) ; /*214.3 31.8% 91.4%;*/
     --input: var(--git-bg-elevated); /*214.3 31.8% 91.4%;*/
     --ring: var(--git-stroke-primary); /*222.2 84% 4.9%;*/
 
