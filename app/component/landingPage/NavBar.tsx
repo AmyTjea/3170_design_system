@@ -4,12 +4,12 @@ import {
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-} from "./ui/navigation-menu";
-import { navigationMenuTriggerStyle } from "./ui/navigation-menu";
-import SignUpButton from "./signUpButton";
-import ProfileMenu from "./ui/profile-menu";
+} from "../ui/navigation-menu";
+import { navigationMenuTriggerStyle } from "../ui/navigation-menu";
+import SignUpButton from "./SignUpButton";
+import ProfileMenu from "../ui/profile-menu";
 import { Link, Moon, Sun } from "lucide-react";
-import { Button } from "./ui/button";
+import { Button } from "../ui/button";
 interface NavBarProps {
   isLoggedIn: boolean;
 }
