@@ -40,6 +40,6 @@ export default function ToastDisplay() {
       Destructive
     </Button>
 
-    <p>Todo: fix so that usezToast exists , plus want to test destructive </p>
+    <p>adjust appearance of the destructive toast </p>
         </div>  )
 }
