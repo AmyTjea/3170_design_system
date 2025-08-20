@@ -20,7 +20,7 @@ export default function ToastDisplay() {
         })
       }}
     >
-      Add to calendar
+      default
     </Button>
 
 
@@ -28,6 +28,7 @@ export default function ToastDisplay() {
       variant="outline"
       onClick={() => {
         toast({
+          variant:"destructive",
           title: "Scheduled: Catch up ",
           description: "Friday, February 10, 2023 at 5:57 PM",
           action: (
@@ -36,7 +37,7 @@ export default function ToastDisplay() {
         })
       }}
     >
-      Add to calendar
+      Destructive
     </Button>
 
     <p>Todo: fix so that usezToast exists , plus want to test destructive </p>
