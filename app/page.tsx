@@ -27,6 +27,8 @@ import DropdownDisplay from "./components/ui_display/DropdownDisplay";
 import DropzoneDisplay from "./components/ui_display/DropzoneDisplay";
 import FormDisplay from "./components/ui_display/FormDisplay";
 import { Toaster } from "./components/ui/toaster"
+import SelectDisplay from "./components/ui_display/SelectDisplay";
+import TooltipDisplay from "./components/ui_display/TooltipDisplay";
 export default function Home() {
 
   const [isDarkMode,setIsDarkMode] = useState(false)
@@ -70,11 +72,13 @@ export default function Home() {
         <ProfileDisplay/>
         <RadioDisplay/>
         <ScrollDisplay/>
+        <SelectDisplay/>
         <SeperatorDisplay/>
         <SwitchDisplay/>
         <TabsDisplay/>
         <ToastDisplay/>
         <ToggleDisplay/>
+        <TooltipDisplay/>
 
       </div>
 
