@@ -26,7 +26,7 @@ import DialogDisplay from "./component/ui_display/DialogDisplay";
 import DropdownDisplay from "./component/ui_display/DropdownDisplay";
 import DropzoneDisplay from "./component/ui_display/DropzoneDisplay";
 import FormDisplay from "./component/ui_display/FormDisplay";
-import { Toaster } from "./components/ui/toaster"
+import { Toaster } from "./component/ui/toaster"
 export default function Home() {
 
   const [isDarkMode,setIsDarkMode] = useState(false)
