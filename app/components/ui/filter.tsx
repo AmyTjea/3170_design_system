@@ -4,8 +4,8 @@ import {
   DropdownMenuContent,
   DropdownMenuCheckboxItem,
   DropdownMenuSeparator,
-} from "@ui/components/ui/dropdown";
-import { Label } from "@ui/components/ui/label";
+} from "@ui/dropdown";
+import { Label } from "@ui/label";
 import { Button } from "./button";
 import { DateRangePicker } from "./datepicker";
 import { Filter as FilterIcon } from "lucide-react";

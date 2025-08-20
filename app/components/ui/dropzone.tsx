@@ -7,7 +7,7 @@ import { createContext, useContext } from 'react';
 import type { DropEvent, DropzoneOptions, FileRejection } from 'react-dropzone';
 import { useDropzone } from 'react-dropzone';
 import { Button } from './button';
-import { cn } from '../../lib/utils';
+import { cn } from "@ui/lib/utils"
 
 type DropzoneContextType = {
   src?: File[];

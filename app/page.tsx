@@ -1,32 +1,32 @@
 "use client"
 import { useState } from "react";
-import AlertDisplay from "./component/ui_display/AlertDisplay";
-import ButtonDisplay from "./component/ui_display/ButtonDisplay";
-import { Button } from "./component/ui/button";
-import CalendarDisplay from "./component/ui_display/CalendarDisplay";
-import CardDisplay from "./component/ui_display/CardDisplay";
-import CarouselDisplay from "./component/ui_display/CarouselDisplay";
-import ChartDisplay from "./component/ui_display/ChartDisplay";
-import CheckboxDisplay from "./component/ui_display/CheckboxDisplay";
-import InfoDisplay from "./component/ui_display/InfoDisplay";
-import InputDisplay from "./component/ui_display/InputDisplay";
-import LabelDisplay from "./component/ui_display/LabelDisplay";
-import NavigationDisplay from "./component/ui_display/NavigationDisplay";
-import PopoverDisplay from "./component/ui_display/PopoverDisplay";
-import ProfileDisplay from "./component/ui_display/ProfileDisplay";
-import RadioDisplay from "./component/ui_display/RadioDisplay";
-import ScrollDisplay from "./component/ui_display/ScrollDisplay";
-import SeperatorDisplay from "./component/ui_display/SeperatorDisplay";
-import SwitchDisplay from "./component/ui_display/SwitchDisplay";
-import TabsDisplay from "./component/ui_display/TabsDisplay";
-import ToastDisplay from "./component/ui_display/ToastDisplay";
-import ToggleDisplay from "./component/ui_display/ToggleDisplay";
-import DatepickerDisplay from "./component/ui_display/DatepickerDisplay";
-import DialogDisplay from "./component/ui_display/DialogDisplay";
-import DropdownDisplay from "./component/ui_display/DropdownDisplay";
-import DropzoneDisplay from "./component/ui_display/DropzoneDisplay";
-import FormDisplay from "./component/ui_display/FormDisplay";
-import { Toaster } from "./component/ui/toaster"
+import AlertDisplay from "./components/ui_display/AlertDisplay";
+import ButtonDisplay from "./components/ui_display/ButtonDisplay";
+import { Button } from "./components/ui/button";
+import CalendarDisplay from "./components/ui_display/CalendarDisplay";
+import CardDisplay from "./components/ui_display/CardDisplay";
+import CarouselDisplay from "./components/ui_display/CarouselDisplay";
+import ChartDisplay from "./components/ui_display/ChartDisplay";
+import CheckboxDisplay from "./components/ui_display/CheckboxDisplay";
+import InfoDisplay from "./components/ui_display/InfoDisplay";
+import InputDisplay from "./components/ui_display/InputDisplay";
+import LabelDisplay from "./components/ui_display/LabelDisplay";
+import NavigationDisplay from "./components/ui_display/NavigationDisplay";
+import PopoverDisplay from "./components/ui_display/PopoverDisplay";
+import ProfileDisplay from "./components/ui_display/ProfileDisplay";
+import RadioDisplay from "./components/ui_display/RadioDisplay";
+import ScrollDisplay from "./components/ui_display/ScrollDisplay";
+import SeperatorDisplay from "./components/ui_display/SeperatorDisplay";
+import SwitchDisplay from "./components/ui_display/SwitchDisplay";
+import TabsDisplay from "./components/ui_display/TabsDisplay";
+import ToastDisplay from "./components/ui_display/ToastDisplay";
+import ToggleDisplay from "./components/ui_display/ToggleDisplay";
+import DatepickerDisplay from "./components/ui_display/DatepickerDisplay";
+import DialogDisplay from "./components/ui_display/DialogDisplay";
+import DropdownDisplay from "./components/ui_display/DropdownDisplay";
+import DropzoneDisplay from "./components/ui_display/DropzoneDisplay";
+import FormDisplay from "./components/ui_display/FormDisplay";
+import { Toaster } from "./components/ui/toaster"
 export default function Home() {
 
   const [isDarkMode,setIsDarkMode] = useState(false)

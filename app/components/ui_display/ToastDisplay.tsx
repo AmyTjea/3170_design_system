@@ -1,6 +1,7 @@
 import React from 'react'
 import { Button } from '../ui/button'
 import { ToastAction } from '../ui/toast'
+import { useToast } from '@app/hooks/use-toast'
 
 export default function ToastDisplay() {
     const { toast } = useToast()

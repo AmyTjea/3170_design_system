@@ -22,11 +22,13 @@
         "name": "next"
       }
     ],
+    "baseUrl": "app",
     "paths": {
       "@/*": ["./*"],
-      "@component/*": ["./app/component/*"],
-      "@ui/*": ["./app/component/ui/*"],
-      "@ui/lib/*": ["./app/component/ui/lib/*"]
+      "@app/*": ["./*"],
+      "@components/*": ["./components/*"],
+      "@ui/*": ["./components/ui/*"],
+      "@ui/lib/*": ["./components/ui/lib/*"]
     }
   },
   "include": [
