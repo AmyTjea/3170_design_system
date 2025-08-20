@@ -9,7 +9,7 @@ export default function ScrollDisplay() {
   return (
         <div className="flex flex-col items-center p-8 max-w-6xl mx-auto">
             <h1 className="text-3xl font-bold text-foreground mb-8">Scroll</h1>
-    {/* <ScrollArea className="h-72 w-48 rounded-md border">
+    <ScrollArea className="h-72 w-48 rounded-md border">
       <div className="p-4">
         <h4 className="mb-4 text-sm font-medium leading-none">Tags</h4>
         {tags.map((tag,idx) => (
@@ -21,6 +21,6 @@ export default function ScrollDisplay() {
           </>
         ))}
       </div>
-    </ScrollArea> */}
+    </ScrollArea>
         </div>  )
 }
