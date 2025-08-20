@@ -14,9 +14,9 @@ export default function DropzoneDisplay() {
                       handleDrop(files);
                     }}
                     onError={console.error}
-                    accept={{ ".py": [] }}
-                    maxFiles={1}
-                    // className="border-2 border-dashed border-muted-foreground rounded-md transition-colors hover:border-primary focus:border-primary"
+                    accept={{  "application/pdf": [".pdf"] }}
+                    maxFiles={3}
+                    src={files}
                   >
                     <DropzoneEmptyState>
                       <div className="flex flex-col items-center w-full py-4">
@@ -26,13 +26,13 @@ export default function DropzoneDisplay() {
                         />
                         <div className="text-center w-full">
                           <p className="font-medium text-sm mb-1">
-                            Upload a Python file
+                            Upload a PDF file
                           </p>
                           <p className="text-muted-foreground text-xs mb-0.5">
                             Drag and drop or click to select
                           </p>
                           <p className="text-muted-foreground text-xs">
-                            Accepted: <span className="font-mono">.py</span>
+                            Accepted: <span className="font-mono">.pdf</span>
                           </p>
                         </div>
                       </div>
