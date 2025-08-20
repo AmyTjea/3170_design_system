@@ -45,7 +45,6 @@ export default function ButtonDisplay() {
                 </table>
             </div>
             
-            <p>Fix the outline variant + the link variant</p>
-            <p>fix  all in dark mode</p>
+            <p>fix  hover effects in light mode</p>
             </div>)
 }

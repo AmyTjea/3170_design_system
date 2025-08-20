@@ -3,7 +3,7 @@ import { Button } from '../ui/button'
 import { ToastAction } from '../ui/toast'
 
 export default function ToastDisplay() {
-    // const { toast } = useToast()
+    const { toast } = useToast()
   return (
         <div className="flex flex-col items-center p-8 max-w-6xl mx-auto">
             <h1 className="text-3xl font-bold text-foreground mb-8">Toast</h1>

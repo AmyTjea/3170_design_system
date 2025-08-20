@@ -28,7 +28,7 @@ export default function AlertDisplay() {
 
 
                             ))}
-<p>change both variants to have coloured backgroundss</p>
+<p>Fix destructive in darkmode to be more readable</p>
 
 <br />
             <AlertDialog>

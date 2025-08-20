@@ -21,19 +21,34 @@ import SwitchDisplay from "./component/ui_display/SwitchDisplay";
 import TabsDisplay from "./component/ui_display/TabsDisplay";
 import ToastDisplay from "./component/ui_display/ToastDisplay";
 import ToggleDisplay from "./component/ui_display/ToggleDisplay";
-
+import DatepickerDisplay from "./component/ui_display/DatepickerDisplay";
+import DialogDisplay from "./component/ui_display/DialogDisplay";
+import DropdownDisplay from "./component/ui_display/DropdownDisplay";
+import DropzoneDisplay from "./component/ui_display/DropzoneDisplay";
+import FormDisplay from "./component/ui_display/FormDisplay";
+import { Toaster } from "./components/ui/toaster"
 export default function Home() {
 
   const [isDarkMode,setIsDarkMode] = useState(false)
 
-  const toggleTheme = ()=>{
+
+
+    const toggleTheme = () => {
     setIsDarkMode(!isDarkMode)
+    // Apply to document root
+    if (!isDarkMode) {
+      document.documentElement.classList.add('dark')
+    } else {
+      document.documentElement.classList.remove('dark')
+    }
   }
   return (
-    <div className={` ${isDarkMode&&"dark "}bg-git-bg-bottom p-4 w-full overflow-scroll h-full flex flex-col align-middle items-center`}>
 
+    
+    <div className={` bg-git-bg-bottom p-4 w-full overflow-scroll h-full flex flex-col align-middle items-center`}>
+        <Toaster />
 <p>general notes: fix the stroke colours</p>
-      <div><Button onClick={toggleTheme}>Switch theme to {isDarkMode?"Light ":"Dark "}</Button></div>
+      <div><Button  className={"absolute bottom-0 right-0"} onClick={toggleTheme}>Switch theme to {isDarkMode?"Light ":"Dark "}</Button></div>
       <div className="flex flex-col wrap-normal align-middle  ">
         <ButtonDisplay />
         <AlertDisplay/>
@@ -42,6 +57,11 @@ export default function Home() {
         <CarouselDisplay/>
         <ChartDisplay/>
         <CheckboxDisplay/>
+        <DatepickerDisplay/>
+        <DialogDisplay/>
+        <DropdownDisplay/>
+        <DropzoneDisplay/>
+        <FormDisplay/>
         <InfoDisplay/>
         <InputDisplay/>
         <LabelDisplay/>

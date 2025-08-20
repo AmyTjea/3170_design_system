@@ -36,9 +36,8 @@ export const NavBar: React.FC<NavBarProps> = ({ isLoggedIn }) => {
   return (
     <>
     <div
-      className={`z-50 flex items-center justify-between py-2 border-b bg-git-bg-elevated  
-        ${"sticky top-0 px-4 rounded-md shadow-lg  ml-32 mr-32" }
-      `}
+      className="z-50 flex items-center justify-between py-2 border-b bg-git-bg-elevated  sticky top-0 px-4 rounded-md shadow-lg  ml-32 mr-32"
+      
     >
       <NavigationMenu>
         <NavigationMenuList className="flex space-x-4">
@@ -91,7 +90,9 @@ export const NavBar: React.FC<NavBarProps> = ({ isLoggedIn }) => {
         </NavigationMenuList>
       </NavigationMenu>
 
-      <div className="flex items-center space-x-4">
+
+{/* Right hand side nav */}
+      <div className="flex items-center space-x-4 ">
         <button
           onClick={handleToggleDarkMode}
           className="p-2 rounded-full hover:bg-git-bg-bottom/30 transition-colors"

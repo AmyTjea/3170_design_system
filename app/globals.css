@@ -186,10 +186,10 @@
     --git-dv-pink-dark: #d37295;
 
     /* Git Interactive Colours */
-    --git-int-primary: #f1502f;
+    --git-int-primary: var(--color-git-500);
     --git-int-text: #fef3ee;
     --git-int-destructive: #6b0f0e;
-    --git-int-primary-hover: #e12a15;
+    --git-int-primary-hover: var(--color-git-600);
     --git-int-destructive-hover: #8b1d1b;
     --git-int-link: #3a76a9;
 
@@ -255,17 +255,22 @@
   }
 
   .dark {
+        /* Git Interactive Colours */
+    --git-int-primary: #CC2706;
+
+
     /* Git Background Colours */
     --git-bg-bottom: #21211e;
     --git-bg-primary: #282823;
     --git-bg-secondary: #2f2f2a;
     --git-bg-tertiary: #393932;
     --git-bg-elevated: #5c5c51;
+    --git-bg-input: #9e9e95;
 
     /* Git Text Colours */
     --git-text-primary: #fff;
     --git-text-secondary: #c4c4c4;
-    --git-text-disabled: #818181;
+    --git-text-disabled: #7a7979;
 
     /* Git Data-Visualisation Colours */
     --git-dv-grey: #fffffb;
@@ -313,7 +318,7 @@
     --destructive-foreground:var(--git-int-text) ; 
 
     --border:var(--git-bg-elevated) ; 
-    --input: var(--git-bg-elevated); 
+    --input: var(--git-bg-input); 
     --ring: var(--git-stroke-primary); 
 
     --radius: 0.5rem;
